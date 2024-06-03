@@ -1,0 +1,158 @@
+/* Category.css */
+
+.category-list {
+  margin: 20px;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-left: 300px; /* Default margin-left */
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 992px) {
+  .category-list {
+    margin-left: 20px; /* Adjusted margin-left for smaller screens */
+  }
+}
+
+  
+  .category-list-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .category-list-header input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 60%;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.075);
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+  
+  .category-list-header input[type="text"]:focus {
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.075), 0 0 8px rgba(128, 189, 255, 0.6);
+  }
+  
+  .add-new-btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.15s ease-in-out;
+  }
+  
+  .add-new-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #dee2e6;
+  }
+  
+  th {
+    background-color: #f1f1f1;
+  }
+  
+  tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  td img {
+    width: 50px;
+    height: auto;
+    border-radius: 4px;
+  }
+  
+  td button {
+    padding: 5px 10px;
+    margin-right: 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  td button:first-child {
+    background-color: #ffc107;
+    color: white;
+  }
+  
+  td button:last-child {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  td button:first-child:hover {
+    background-color: #e0a800;
+  }
+  
+  td button:last-child:hover {
+    background-color: #c82333;
+  }
+  
+
+/* 
+.category-list {
+    padding: 20px;
+    margin-left: 300px;
+  }
+  
+  .add-new-btn {
+    background-color: #6c63ff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+  .add-new-btn:hover {
+    background-color: #5a54d6;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  .active {
+    color: green;
+  }
+  
+  .inactive {
+    color: red;
+  }
+  
+  button {
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+   */

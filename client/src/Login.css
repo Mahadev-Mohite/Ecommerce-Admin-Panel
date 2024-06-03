@@ -1,0 +1,103 @@
+.Login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    width: 100%;
+    position: relative;
+  }
+  .main-body{
+    position: top;
+    margin-top: -12%;
+    margin-right: 35%;
+
+  }
+  
+  .login-form {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    width: 45%;
+    margin-top: 10%;
+  }
+  
+  .form-group {
+    position: relative;
+    margin-bottom: 1.5rem;
+  }
+  
+  .floating-label input {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 12px;
+    width: 100%;
+    box-sizing: border-box;
+    transition: border-color 0.3s, background-color 0.3s;
+  }
+  
+  .floating-label input:focus {
+    border-color: #007bff;
+  }
+  
+  .floating-label label {
+    position: absolute;
+    top: 50%;
+    left: 12px;
+    transform: translateY(-50%);
+    background: white;
+    padding: 0 5px;
+    transition: top 0.3s, transform 0.3s, font-size 0.3s;
+    color: #aaa;
+  }
+  
+  .floating-label input:focus + label,
+  .floating-label input:not(:placeholder-shown) + label {
+    top: 0;
+    transform: translateY(-100%);
+    font-size: 0.75rem;
+    /* color: #007bff; */
+  }
+  
+  .floating-label input:focus + label {
+    /* color: #007bff; */
+  }
+  
+  .password-toggle {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    /* color: #007bff; */
+    user-select: none;
+  }
+  
+  .forgot-password-link {
+    color: purple;
+    text-decoration: none;
+  }
+  
+  .forgot-password-link:hover {
+    text-decoration: underline;
+  }
+  /* Login.css */
+.btn-success {
+  width: calc(100% - 24px); /* Same width as the input box with padding */
+  background-color: purple !important; /* Set background color to purple */
+  color: white;
+  border: none;
+  padding: 12px; /* Match the input box padding */
+  border-radius: 4px;
+  margin-top: 10px; /* Add some top margin */
+}
+
+.btn-success:hover {
+  background-color: #6b3c9c !important; /* Darker purple on hover */
+}
+
+.btn-success:focus {
+  outline: none; /* Remove default focus outline */
+}
+
+  

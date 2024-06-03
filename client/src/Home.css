@@ -1,0 +1,9 @@
+.main-body{
+    /* align-items: center; */
+    position: absolute;
+    top: 35%;
+    margin-left: 35%;
+    /* margin-left: 280px; Adjust this value to keep main-body div beside the sidebar */
+    padding: 20px;
+    text-align: center;
+  }
